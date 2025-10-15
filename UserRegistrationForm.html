@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+    <style type="text/css">
+        #personal{
+            font-family:'Courier New', Courier, monospace;
+
+        }
+        #preferences{
+            font-family:'Courier New', Courier, monospace;
+            
+        }
+        #option{
+            font-family:'Courier New', Courier, monospace;
+            
+        }
+        #about{
+            background-color:mistyrose;
+            margin:auto;
+            width:1000px;
+            
+        }
+        #button{
+            float:right;
+        }
+    </style>
+ 
+</head>
+<body>
+   <form> 
+    <div id = "container">
+    <div id="about">
+        <div id="personal">
+        <fieldset>
+        <legend>Personal Details</legend>
+        <br>
+        Full Name: <br><input type="text"><br>
+        Email: <br><input type="text"><br>
+        Password: <br><input type="text"><br>
+        Age: <br><input type="text"><br>
+        </div>
+        </fieldset>
+        <br>
+
+        <div id="preferences">
+        <fieldset>
+        <legend>Preferences</legend>
+        <br>
+        Gender<br>
+        <input type="radio" name="gender" id=""> Male<br>
+        <input type="radio" name="gender" id=""> Female<br>
+        <input type="radio" name="gender" id=""> Others<br>
+        <br>
+        Interests<br>
+        <input type="checkbox" name="interest" id=""> Web Development<br>
+        <input type="checkbox" name="interest" id=""> Design<br>
+        <input type="checkbox" name="interest" id=""> AI/ML<br>
+        <br>
+        <div id="option">
+        Country<br>
+        <select>
+        <option value="country1">Australia</option><br>
+        <option value="country3">Egypt</option><br>
+        <option value="country2">France</option><br>
+        <option value="country3">Greece</option><br>
+        <option value="country3">Indonesia</option><br>
+        <option value="country3">Japan</option><br>
+        <option value="country3">Philippines</option><br>
+        <option value="country3">Switzerland</option><br>
+        </select>
+        </div>
+        <br>
+        <br>
+        Short Bio<br>
+        <textarea rows="5" cols="129">
+        </textarea>
+            <br>
+        </fieldset>
+        <div id="button">
+        <br>
+        &nbsp;<button type="Reset" class="reset-btn">Reset</button>&nbsp;&nbsp;&nbsp;<button type="Submit" class="submit-btn">Submit</button>
+        <br>
+        <br>
+        </div>
+        </div>
+    </div>
+</fieldset>
+   </form>
+</body>
+</html>
